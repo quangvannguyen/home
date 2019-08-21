@@ -1,2 +1,48 @@
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
 theme: jekyll-theme-cayman
 title: Quang V. Nguyen's homepage
+subtitle: Postdoctoral Researchers in Optimization and Machine Learning, McGill University
+
+# Side Menu Links
+menu:
+  - text: About me
+    link: /
+    icon: ""
+
+  - text: Research
+    link: /research
+    icon: ""
+
+  - text: Teaching
+    link: /teaching
+    icon: ""
+
+  - text: My Resume
+    link: /resume
+    icon: ""
+
+# Socialmedia Icons
+social_icons:
+  - name: linkedin
+    link: https://www.linkedin.com/christianezeani
+    icon: fab fa-linkedin
+
+  - name: github
+    link: https://github.com/christianezeani
+    icon: fab fa-github-square
+
+  - name: facebook
+    link: https://www.facebook.com/christian.ezeani.cyb
+    icon: fab fa-facebook-square
+
+  - name: twitter
+    link: https://www.twitter.com/christianezeani
+    icon: fab fa-twitter
+
